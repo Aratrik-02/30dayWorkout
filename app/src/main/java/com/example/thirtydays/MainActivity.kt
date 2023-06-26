@@ -17,8 +17,18 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.ArrowDropDown
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardElevation
 import androidx.compose.material3.ElevatedButton
+import androidx.compose.material3.ElevatedCard
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -66,9 +76,10 @@ fun WorkoutsApp(modifier : Modifier = Modifier){
     ) {
         WorkoutTopBar()
         LazyColumn(){
-            items(workouts){
+            itemsIndexed(workouts) { index, workout ->
                 WorkoutItem(
-                    work = it
+                    index = index,
+                    work = workout
                 )
             }
         }
@@ -77,19 +88,20 @@ fun WorkoutsApp(modifier : Modifier = Modifier){
 
 @Composable
 fun WorkoutItem(
+    index : Int,
     work : Workout,
     modifier: Modifier = Modifier
 ){
     var expanded by remember { mutableStateOf(false) }
     Card(
-        modifier = modifier.padding(8.dp),
+        modifier = modifier.padding(16.dp)
     ){
         Column(
             modifier = Modifier
                 .animateContentSize(
                     animationSpec = spring(
-                        dampingRatio = Spring.DampingRatioNoBouncy,
-                        stiffness = Spring.StiffnessMedium
+                        dampingRatio = Spring.DampingRatioLowBouncy,
+                        stiffness = Spring.StiffnessLow
                     )
                 )
                 .padding(8.dp)
@@ -100,40 +112,74 @@ fun WorkoutItem(
                 modifier = modifier.fillMaxWidth()
             ) {
                 Text(
-                    text = stringResource(id = work.nameRes),
-                    fontSize = 20.sp,
-                    fontWeight = FontWeight.Bold
+                    text = String.format(
+                        "Day %d: %s",
+                        index + 1,
+                        stringResource(id = work.nameRes)),
+                    fontWeight = FontWeight.Bold,fontSize = 20.sp,
+                    modifier = Modifier.padding(start = 16.dp, bottom = 8.dp)
                 )
-                ElevatedButton(
-                    onClick = { expanded = !expanded }
-                ) {
-                    Text(if (expanded) "Show less" else "Show more")
-                }
             }
             Spacer(modifier = Modifier.height(4.dp))
-            if(!expanded)
-                Image(
-                    painter = painterResource(id = work.imageRes),
-                    contentDescription = stringResource(id = work.nameRes),
-                    contentScale = ContentScale.Crop,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(190.dp),
+            Image(
+                painter = painterResource(id = work.imageRes),
+                contentDescription = stringResource(id = work.nameRes),
+                contentScale = ContentScale.FillWidth,
+                modifier = Modifier.fillMaxWidth()
+            )
+            if (work.numberOfReps != null) {
+                Text(
+                    text = String.format(
+                        stringResource(R.string.one_set_format),
+                        work.numberOfReps
+                    ),
+                    modifier = Modifier.padding(start = 16.dp, top = 8.dp)
                 )
-            else{
-                Image(
-                    painter = painterResource(id = work.imageRes),
-                    contentDescription = stringResource(id = work.nameRes),
-                    contentScale = ContentScale.Crop,
-                    modifier = Modifier.fillMaxWidth(),
+            }
+            if (work.durationInSeconds != null) {
+                Text(
+                    text = String.format(
+                        stringResource(R.string.duration_format),
+                        work.durationInSeconds
+                    ),
+                    modifier = Modifier.padding(start = 16.dp, top = 8.dp)
                 )
-                Spacer(modifier = Modifier.height(4.dp))
-                Text(text = stringResource(id = work.instructionRes))
+            }
+            Row {
+                Text(
+                    text = stringResource(R.string.how_to_do_exercise),
+                    modifier = Modifier.padding(start = 16.dp, top = 8.dp)
+                )
+                Spacer(modifier = Modifier.weight(1f))
+                WorkoutItemButton(
+                    expanded = expanded,
+                    onClick = { expanded = !expanded }
+                )
+            }
+            if (expanded) {
+                Text(
+                    text = stringResource(id = work.instructionRes),
+                    modifier = Modifier.padding(start = 16.dp, end = 16.dp)
+                )
             }
         }
     }
 }
 
+@Composable
+fun WorkoutItemButton(
+    expanded: Boolean,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier
+){
+    IconButton(onClick = onClick) {
+        Icon(
+            imageVector = if (expanded) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown,
+            contentDescription = stringResource(id = R.string.expand_button_content_description)
+        )
+    }
+
+}
 @Composable
 fun WorkoutTopBar(modifier: Modifier = Modifier){
     Column (
