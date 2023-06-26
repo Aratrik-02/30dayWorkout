@@ -1,0 +1,283 @@
+<!--<resources>-->
+<!--    <string name="app_name">ThirtyDays</string>-->
+<!--    -->
+<!--</resources>-->
+<resources>
+    <string name="app_name">30 Day Core Workout</string>
+    <string name="expand_button_content_description">View Instructions</string>
+    <string name="how_to_do_exercise">How to do the exercise?</string>
+    <string name="duration_format">Duration: %d seconds</string>
+    <string name="one_set_format">One Set: %d reps</string>
+    <!--Exercises-->
+    <string name="bird_dog">Bird Dog</string>
+    <string name="bear_plank">Bear Plank</string>
+    <string name="plank_shoulder_tap">Plank Shoulder Tap</string>
+    <string name="mountain_climbers">Mountain Climbers</string>
+    <string name="leg_raises">Leg Raises</string>
+    <string name="v_hold">V Hold</string>
+    <string name="toe_touches">Toe Touches</string>
+    <string name="plank_up_downs">Plank Up Downs</string>
+    <string name="dead_bug">Dead Bug</string>
+    <string name="scissors">Scissors</string>
+    <string name="russian_twists">Russian Twists</string>
+    <string name="side_plank">Side Plank</string>
+    <string name="glute_bridge">Glute Bridge</string>
+    <string name="spiderman_crunches">Spiderman Crunches</string>
+    <string name="heel_touches">Heel Touches</string>
+    <string name="windshield_wipers">Windshield Wipers</string>
+    <string name="reverse_crunches">Reverse Crunches</string>
+    <string name="criss_cross_flutter_kicks">Criss Cross Flutter Kicks</string>
+    <string name="superman">Superman</string>
+    <string name="burpees">Burpees</string>
+    <string name="high_knees">High Knees</string>
+    <string name="sliding_pike">Sliding Pike</string>
+    <string name="seated_knee_tucks">Seated Knee Tucks</string>
+    <string name="high_plank">High Planks</string>
+    <string name="standing_criss_cross_crunch">Standing Criss Cross Crunch</string>
+    <string name="wood_chop">Wood Chop</string>
+    <string name="hollow_body_hold">Hollow Body Hold</string>
+    <string name="rolling_plank">Rolling Plank</string>
+    <string name="breakdance">Breakdance</string>
+    <string name="seagull">Seagull</string>
+    <!--Instructions-->
+    <string name="bird_dog_instructions">
+        1. Get into a tabletop position with your shoulders directly over your wrists and your hips
+        in line with your knees.
+        \n\n2. Keeping your right foot flexed, straighten your leg behind you as you extend your
+        left hand out in front of you.
+    </string>
+    <string name="bear_plank_instructions">
+        1. Get into a tabletop position with your shoulders directly over your hands and your hips
+        in line with your knees.
+        \n\n2. Tightening your core and glutes, lift your knees an inch or two off the ground and
+        hold for 30 seconds while maintaining a flat back.
+        \n\n3. Once you are able to hold this position for 30 seconds, add another 15 seconds.
+    </string>
+    <string name="plank_shoulder_tap_instructions">
+        1. From a tabletop position with your hands directly underneath your shoulders and your hips
+        in line with your hips, lift your knees an inch or two off the ground.
+        \n\n2. Now, lift your right hand off the ground to tap your left shoulder.
+        \n\n3. Bring your hand back down and lift your left hand to tap your right shoulder.
+    </string>
+    <string name="mountain_climbers_instructions">
+        1. Starting in a high plank position, lift your left foot to bend your left knee and tap
+        your right elbow.
+        \n\n2. Then, bring it back to plank.
+        \n\n3. Next, lift your right foot to bend your right knee and bring it toward your left
+        elbow to tap it.
+    </string>
+    <string name="leg_raises_instructions">
+        1. On a yoga mat, lie face up and bring your legs together.
+        \n\n2. Lower your feet toward the ground without touching it.
+        \n\n3. Hold it for a second and then bring your legs back up.
+    </string>
+    <string name="v_hold_instructions">
+        1. Lie face up on a yoga mat with your legs extended in front of you and your hands behind
+        your head.
+        \n\n2. Lift your arms by your ears and your neck and shoulders off the ground. At the
+        same time, your legs and feet off the ground.
+        \n\n3. Hold this position for 30 seconds, working your way up to a full minute.
+    </string>
+    <string name="toe_touches_instructions">
+        1. Lie face up on a yoga mat and hold your legs straight up in the air.
+        \n\n2. Straighten your arms pointing upwards and attempt to reach up toward your toes.
+    </string>
+    <string name="plank_up_downs_instructions">
+        1. Start in a table-top position on the floor with hands stacked directly under shoulders,
+        knees bent and stacked directly under hips, and feet hip-width apart.
+        \n\n2. Lift both knees off the floor and straighten legs to come into a high plank position
+        on palms, squeezing glutes together and engaging core.
+        \n\n3. Actively push away from the floor and maintain a straight line from head to heels.
+        \n\n4. This is the starting position.
+        \n\n5. Keeping hips square, lower right elbow to the floor, then left elbow, to come into a
+        forearm plank. Place right hand under right shoulder, then left hand under left shoulder to
+        return to a high plank.
+        \n\n6. Repeat the plank up-down with the left side leading, lowering left elbow to the floor,
+        then right elbow, to come into a forearm plank.
+        \n\n7. Place left hand under left shoulder, then right hand under right shoulder to return
+        to a high plank.
+    </string>
+    <string name="dead_bug_instructions">
+        1. Lie on back with legs in a table-top position, calves parallel to the floor, arms
+        extended up toward the ceiling.
+        \n\n2. Extend one arm back and the opposite leg down, hovering an inch off the ground, then
+        return and switch sides.
+    </string>
+    <string name="scissors_instructions">
+        1. Lie on back, hands under butt for support and legs extended straight on the floor.
+        \n\n2. Lift right leg up to point toward the ceiling.
+        \n\n3. While lowering right leg, raise left leg to point to the ceiling.
+    </string>
+    <string name="russian_twists_instructions">
+        1. Sit with sacrum on the floor, legs up in tabletop position and back off the floor, hands
+        in prayer.
+        \n\n2. Twist to the right, tapping right elbow to the floor.
+        \n\n3. Twist to the left, tapping left elbow to the floor.
+        \n\n4. Repeat each rep by alternating sides.
+    </string>
+    <string name="side_plank_instructions">
+        1. Lie on your right side, legs extended and stacked from hip to feet.
+        \n\n2. The elbow of your right arm is directly under your shoulder.
+        \n\n3. Ensure your head is directly in line with your spine.
+        \n\n4. Your left arm can be aligned along the left side of your body.
+    </string>
+    <string name="glute_bridge_instructions">
+        1. Begin on your back with your knees bent, arms straight beside you, feet flat on the ground.
+        \n\n2. Your fingertips should barely be able to touch your heels.
+        \n\n3. Engage your core.
+        \n\n4. Press into your heels to lift your hips up until your body is a straight line between
+        your knees and your shoulders.
+        \n\n5. Hold for two seconds and slowly return to the starting
+        position.
+        \n\n6. Repeat for one minute.
+    </string>
+    <string name="spiderman_crunches_instructions">
+        1. Get into a high plank position with your shoulders directly over your wrists.
+        \n\n2. Lift your left foot to bend your bend knee and bring it towards your left elbow.
+        \n\n3. Tap your left elbow if you can, tightening your left oblique.
+        \n\n4. Then, bring your left foot back to the starting position.
+        \n\n5. Next, lift your right foot to bend your right knee and bring it towards your
+        right elbow, tightening your right oblique.
+        \n\n6. Bring your right foot back to the starting position.
+        \n\n7. Repeat steps 1 to 6 to complete subsequent reps.
+    </string>
+    <string name="heel_touches_instructions">
+        1. Lie face up on a yoga mat with your arms by your sides and your feet flat on the ground.
+        \n\n2. Keep your heels close to your butt.
+        \n\n3. Lift your neck and shoulders off the ground and reach your hands to tap the heels of
+        your feet.
+    </string>
+    <string name="windshield_wipers_instructions">
+        1. Lie on your back facing upwards. Bend your knees such that your feet is resting flat on
+        the floor and extend your arms to either side.
+        \n\n2. In this position, raise your legs such that your thighs are perpendicular to the
+        floor with your knees in the air. Make sure your lower back is pressed into the floor.
+        \n\n3. Move your hips around to find a comfortable position. This is the starting position.
+        \n\n4. Keeping your shoulder blades pressed firmly to the floor, engage your core and twist
+        your spine to drop your knees to the left side of your body.
+        \n\n5. Afterwards, return back to the starting position and drop your knees to the right
+        side of your body.
+        \n\n6. Finally return back to the starting position to complete one rep.
+    </string>
+    <string name="reverse_crunches_instructions">
+        1. Lie face up on a mat or other soft surface with your knees bent at 90 degrees and your
+        feet flat on the floor.
+        \n\n2. Keep your arms near your sides with your palms down.
+        \n\n3. Exhale and brace your core.
+        \n\n4. Lift your feet off the ground and raise your thighs until they’re vertical.
+        \n\n5. Keep your knees bent at 90 degrees throughout the movement.
+        \n\n6. Tuck your knees toward your face as far as you can comfortably go without lifting
+        your mid-back from the mat. Your hips and lower back should lift off the ground.
+        \n\n7. Hold for a moment and slowly lower your feet back toward the floor until they reach
+        the ground.
+    </string>
+    <string name="criss_cross_flutter_kicks_instructions">
+        1. Lie down on your back, facing up.
+        \n\n2. Place both hands underneath your buttocks.
+        \n\n3. Keep your lower back on the ground as you lift both legs up, slightly past hip height,
+        keeping your core engaged the entire time.
+        \n\n4. Criss cross your legs over one another, switching off which leg is on top, and keeping
+        your legs off the ground the entire time.
+        \n\n5. For more of a challenge, lift your head and neck off the floor. The wider you bring
+        out your legs with each cross, the more you’ll feel the exercise in your abs.
+    </string>
+    <string name="superman_instructions">
+        1. Lie on your stomach with a rolled towel or a small pillow under your hips to support your
+        \n\n2. back. You might also use a folded towel to support your head.
+        \n\n3. Tighten your abdominal muscles.
+        \n\n4. Raise your right arm off the floor (A). Hold for three deep breaths.
+        \n\n5. Lower your right arm and repeat with your left arm.
+        \n\n6. Raise your right leg off the floor (B). Hold for three deep breaths.
+        \n\n7. Lower your right leg and repeat with your left leg.
+    </string>
+    <string name="burpees_instructions">
+        1. Squat down and place your hands flat on the floor in front of your feet and shoulder-width
+        apart.
+        \n\n2. Squat thrust. Jump both feet out and back to land in the pushup position.
+        \n\n3. Push-up. Bend your arms and lower your chest to lightly touch the floor. Push back up to
+        full arm extension
+        \n\n4. Squat. Jump both feet back in and under your body, knees close to your elbows
+        \n\n5. Jump. Leap up into the air as high as you can. Land on slightly bent knees.
+    </string>
+    <string name="high_knees_instructions">
+        1. Stand straight with your feet shoulder-width apart.
+        \n\n2. Face forward and open your chest.
+        \n\n3. Bring your knees up to waist level and then slowly land on the balls of your feet.
+        \n\n4. Repeat until the set is complete.
+    </string>
+    <string name="sliding_pike_instructions">
+        1. While seated on your mat, extend your legs fully straight out in front and lean backwards
+        keeping spine neutral (tip: do not round your back).
+        \n\n2. Next, with your legs extended, start to bend your legs, bringing your knees towards
+        your chest.
+        \n\n3. With your knees bent, hold the position for a second or two, then extend your legs
+        outwards and return to the starting position without touching the mat.
+        \n\n4. Repeat steps 1 to 3 for each subsequent rep.
+    </string>
+    <string name="seated_knee_tucks_instructions">
+        1. While seated on your mat, extend your legs fully straight out in front and lean backwards
+        keeping spine neutral (tip: do not round your back).
+        \n\n2. Next, with your legs extended, start to bend your legs, bringing your knees towards
+        your chest.
+        \n\n3. With your knees bent, hold the position for a second or two, then extend your legs
+        outwards and return to the starting position without touching the mat.
+        \n\n4. Repeat steps 1 to 3 for each subsequent rep.
+    </string>
+    <string name="high_plank_instructions">
+        1. Get into an all-fours position hands shoulder-width apart and get yourself in a
+        push-up position.
+        \n\n2. Keep your legs hip-width apart or slightly wider.
+        \n\n3. Pre-tension your shoulders and hips while engaging your core.
+        \n\n4. Keep your ribs down and your pelvis slightly tucked.
+        \n\n5. Squeeze your quads and glutes. Your chin should remain tucked throughout the movement,
+        as if you were holding an egg under your chin.
+        \n\n6. Continue to engage your core and maintain full-body tension. Hold for the desired length
+        of time.
+    </string>
+    <string name="standing_criss_cross_crunch_instructions">
+        1. Stand up straight with your feet hip-width apart and your hands behind your head.
+        \n\n2. Bend your right leg and lift your knee as high as you can.
+        \n\n3. Rotate your torso to the right and bring your right knee to your left elbow.
+        \n\n4. Repeat on the opposite side and keep alternating sides until the set is complete
+    </string>
+    <string name="wood_chop_instructions">
+        1. Stand with your feet wider than shoulder width apart, knees slightly bent.
+        \n\n2. Hold the medicine ball in both hands and keep your arms straight.
+        \n\n3. Rotating at your waist, explosively lift the ball up above your shoulder to the left.
+        \n\n4. Control it at the top and bring the ball back down to waist height on your right.
+        \n\n5. Perform all your reps on one side, then swap.
+    </string>
+    <string name="hollow_body_hold_instructions">
+        1. Lie on your back and extend your arms overhead.
+        \n\n2. Straighten your legs with your feet together and toes pointed.
+        \n\n3. From there, tighten your core by drawing your ribs toward your pelvis and flexing your
+        abdominal region.
+        \n\n4. Then raise your feet, legs, and shoulders off of the ground and flatten your lower back
+        against the floor
+    </string>
+    <string name="rolling_plank_instructions">
+        1. Start in forward plank position. (Position A)
+        \n\n2. Turn your body to right side plank position. (Position B)
+        \n\n3. Return to forward plank position (Position A)
+        \n\n4. Turn your body to left side plank position. (Position C)
+        \n\n5. Return to forward plank position (Position A)
+        \n\n6. Repeat steps 1 to 5 for subsequent reps.
+    </string>
+    <string name="breakdance_instructions">
+        1. Get down on your hands and knees and lift your knees a few inches off the floor.
+        \n\n2. Lift your left hand and your right foot off the floor, rotate your hips to the left,
+        place your left heel on the floor, and kick your right leg to the left.
+        \n\n3. Rotate your hips to the right and return to the starting position.
+        \n\n4. Switch sides and repeat.
+    </string>
+    <string name="seagull_instructions">
+        1. Get yourself to forward plank position.
+        \n\n2. Lift your left hand till its straight and parallel to the ground.
+        \n\n3. Swipe your left hand and rotate 90 degrees to the left.
+        \n\n4. Return your left hand to forward plank position.
+        \n\n5. Lift your right hand till its straight and parallel to the ground.
+        \n\n6. Swipe your right hand and rotate 90 degrees to the right.
+        \n\n7. Return your right hand to forward plank position.
+        \n\n8. Repeat steps 1 to 7 for subsequent reps.
+    </string>
+</resources>
